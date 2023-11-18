@@ -1,0 +1,12 @@
+.imageHolder {
+  animation: image-Holder 1s linear infinite alternate;
+}
+
+@keyframes image-Holder {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
